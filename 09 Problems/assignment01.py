@@ -1,3 +1,4 @@
+#1
 num =input("Enter a number: ")
 if num > 0:
     print("Positive")
@@ -6,7 +7,7 @@ elif num < 0:
 else:
     print("Zero")
  
- 
+#2 
 num = int(input("Enter a number: "))
  
 if num == 0:
@@ -20,7 +21,7 @@ elif num < 0 and num % 2 == 0:
 else:
     print("Negative Odd")
  
- 
+#3 
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
  
@@ -31,7 +32,7 @@ elif b > a:
 else:
     print("Both are equal")
  
-
+#4
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 c = float(input("Enter third number: "))
@@ -44,7 +45,7 @@ else:
     print("Smallest number is", c)
  
  
-
+#5
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 c = float(input("Enter third number: "))
@@ -57,7 +58,7 @@ else:
     print(c, "is the largest")
  
  
-
+#6
 num = int(input("Enter a number: "))
  
 if num % 5 == 0 and num % 11 == 0:
