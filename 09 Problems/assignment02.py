@@ -1,13 +1,13 @@
 # 1
 # IPO:
-#Input: x, y
-#Process: total = x + y
+#Input: a, b
+#Process: total = a + b
 #Output: total
 
 # ALGORITHM:
 #Start
-#Read x and y
-#Calculate total = x + y
+#Read a and b
+#Calculate total = a + b
 #Print total
 #Stop
 
@@ -18,14 +18,14 @@ print("Sum =", a + b)
 
 # 2
 # IPO:
-#Input: x
-#Process: Check x % 2 == 0
+#Input: num
+#Process: Check num % 2 == 0
 #Output: "Even" or "Odd"
 #
 # ALGORITHM:
 #   1. Start
-#   2. Read x
-#   3. If x % 2 == 0, print "Even"
+#   2. Read num
+#   3. If num % 2 == 0, print "Even"
 #   4. Else, print "Odd"
 #   5. Stop
 
@@ -108,7 +108,7 @@ print("Final price =", final_price)
 
 # 6
 # IPO :
-#   Input: x, y, z (marks)
+#   Input: x, y, z (m1, m2, m3)
 #   Process: avg = (x + y + z) / 3, check avg >= 40
 #   Output: "Pass" or "Fail"
 #
