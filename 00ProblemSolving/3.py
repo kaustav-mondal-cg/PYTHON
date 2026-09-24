@@ -91,7 +91,7 @@
 
 # words = sentence.split()
 
-# highest_score = -1
+# highest_score = 0
 # highest_word = ""
 
 # for word in words:
@@ -155,16 +155,21 @@
 
 #5
 
-# sentence = str(input("Enter your sentence: "))
+sentence=input("Enter your sentence: ")
 
-# words = sentence.split()
+words=sentence.split()
 
-# if len(words) <=3:
-#     print("Short")
-# elif len(words) <=6:
-#     print("Medium")
-# else:
-#     print("Long")        
+count=0
 
-#6
+for i in words:
+    print(i,len(i))
+    if len(i)<=3:
+        count+=1
+        print("is short")
+    elif len(i)<=6:
+        count+=1
+        print("is medium")
+    else:
+        count+=1
+        print("is long")
 
