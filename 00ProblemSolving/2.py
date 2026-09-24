@@ -85,4 +85,112 @@
 
 #13
     
-    
+# for i in range (1,6):
+#     for j in range (1,i+1):
+#         print(j*2-1,end=" ")
+#     print()    
+            
+#14
+
+# for i in range (1,6):
+#     for j in range (1,i+1):
+#         print(j*2,end=" ")
+#     print()    
+            
+#15
+
+
+# for i in range(5):
+#     for j in range(5):
+#         print("*",end=" ")
+#     print()    
+
+#16
+
+# for i in range(1,6):
+#     for j in range(1,6):
+#         print(j,end=" ")
+#     print()
+
+#17
+
+# for i in range(1,4):
+#     for j in range(1,4):
+#         if i==1:
+#             print(j,end=" ")
+#         elif i==2:
+#             print(j+3,end=" ")
+#         else:
+#             print(j+6,end=" ")
+#     print()      
+
+#OR
+
+# num=1
+# for i in range(1,4):
+#     for j in range(1,4):
+#         print(num,end=" ")
+#         num+=1
+#     print() 
+
+
+#18
+
+# num=1
+# for i in range(4):
+#     for j in range(5):
+#         print(num,end=" ")
+#         num+=1
+#     print() 
+
+#19
+
+# for i in range(1,4):
+#     for j in range(1,4):
+#         print(f"({i},{j})",end=" ")
+#     print()
+
+#20
+
+# for i in range(1,4):
+#     for j in range(1,4):
+#         print(f"{i} {j}")
+
+
+#21
+
+# for i in range(1,11):
+#     for j in range(1,11):
+#         print(f"{i} X {j} = {i*j}",end=", ")
+#     print()
+#     print()    
+
+
+#22
+
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(i,end="")
+#     print()    
+
+#23
+
+# for i in range(1,6):
+#     for j in range(1,7-i):
+#         print(j,end="")
+#     print()
+
+#24
+
+# for i in range(-1,4):
+#     for j in range(5,i+1,-1):
+#         print(j,end="")
+#     print()
+
+
+#25
+
+# for i in range(1,6):
+#     for j in range(1,6):
+#         print(i,end="")
+#     print()
