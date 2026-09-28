@@ -155,21 +155,37 @@
 
 #5
 
-sentence=input("Enter your sentence: ")
+# sentence=input("Enter your sentence: ")
 
-words=sentence.split()
+# words=sentence.split()
 
-count=0
+# count=0
 
-for i in words:
-    print(i,len(i))
-    if len(i)<=3:
-        count+=1
-        print("is short")
-    elif len(i)<=6:
-        count+=1
-        print("is medium")
-    else:
-        count+=1
-        print("is long")
+# for i in words:
+#     print(i,len(i))
+#     if len(i)<=3:
+#         count+=1
+#         print("is short")
+#     elif len(i)<=6:
+#         count+=1
+#         print("is medium")
+#     else:
+#         count+=1
+#         print("is long")
 
+
+#6
+# even = 0
+# odd = 0
+# for i in range(1,6):
+#     num=int(input(f"Enter number {i}: "))
+#     if num%2==0:
+#         even += 1
+#     else:
+#         odd += 1
+# if even == odd:
+#     print("Even = Odd")
+
+# print(f"Total even numbers are {even}")   
+# print(f"Total odd numbers are {odd} ")         
+    
