@@ -244,7 +244,7 @@
 #     r+=1
 
 
-# # nested while loop
+# # NESTED WHILE LOOP
 # # task 1
 # r=1
 # while r<=3:

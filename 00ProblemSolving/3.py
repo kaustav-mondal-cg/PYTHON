@@ -189,3 +189,27 @@
 # print(f"Total even numbers are {even}")   
 # print(f"Total odd numbers are {odd} ")         
     
+
+#7
+
+text = input("Enter your text: ")
+
+char_counts = {}
+for char in text:
+    if char in char_counts:
+        char_counts[char] += 1
+    else:
+        char_counts[char] = 1
+
+for char, count in char_counts.items():
+    if count > 1:
+        if count == 2:
+            classification = "Duplicate"
+        elif 3 <= count <= 4:
+            classification = "Repeated"
+        else:
+            classification = "Highly Repeated"
+        
+        print(f"Character: {repr(char)} | Occurrences: {count} -> {classification}")
+
+
