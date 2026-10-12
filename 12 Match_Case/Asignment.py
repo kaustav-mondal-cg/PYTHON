@@ -513,3 +513,63 @@
 #     if i % 2 == 0:
 #         pass
 #     print(i)
+
+# #32
+
+# choice = int(input("Enter choice: "))
+
+# if choice == 1:
+#     print("Option 1 selected")
+# elif choice == 2:
+#     pass
+# else:
+#     print("Unknown option")
+
+# print("Program closed")
+
+# #34
+
+# for i in range(1, 6):
+#     if i == 3:
+#         continue
+#     print(i)
+
+# #36
+
+# numbers = list(map(int, input("Enter numbers: ").split()))
+# target = int(input("Enter target: "))
+
+# for n in numbers:
+#     if n < 0:
+#         continue
+#     if n == target:
+#         print("Target found")
+#         break
+# else:
+#     print("Target not found")
+
+# #37
+
+# numbers = list(map(int, input("Enter numbers: ").split()))
+
+# for n in numbers:
+#     if n == 0:
+#         continue
+#     if n == -1:
+#         break
+#     print(n, end=" ")
+# else:
+#     print("All values processed")
+
+# #39
+
+# numbers = list(map(int, input("Enter numbers: ").split()))
+
+# for n in numbers:
+#     if n < 0:
+#         continue
+#     if n % 4 == 0 and n % 6 == 0:
+#         print("Found:", n)
+#         break
+# else:
+#     print("No matching number")
