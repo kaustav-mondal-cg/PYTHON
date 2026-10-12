@@ -484,3 +484,32 @@
 
 #     case _:
 #         print("Invalid Account Type")
+
+## 24
+
+# n = int(input())
+
+# for i in range(2, n):
+#     if n % i == 0:
+#         print("Not prime")
+#         break
+# else:
+#     print("Prime")
+
+## 27
+
+# s = input()
+
+# for ch in s:
+#     if s.count(ch) >= 2:
+#         print(ch)
+#         break
+# else:
+#     print("No repeated character")
+
+## 31
+
+# for i in range(1, 6):
+#     if i % 2 == 0:
+#         pass
+#     print(i)
